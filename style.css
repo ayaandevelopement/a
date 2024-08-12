@@ -1,0 +1,145 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+      width: 100%;
+        background-image: url(img/background.png);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        object-fit: cover;
+      
+}
+header{
+    width: 100%;
+position: absolute;
+top: 10px;
+    border-bottom: 2px solid #CB6F18;
+    box-shadow: 0px 0px 30px #CB6F18;
+    margin-top: -5px;
+    background-color: transparent;
+    display: flex;
+    align-items: center;
+   
+
+}
+nav{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.u{
+    display: flex;
+    gap: 30px;
+    list-style: none;
+    color: #F39216;
+    
+
+}
+.l{
+    font-size: 19px;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.l:hover{
+    border: 2px solid #F39216;
+    border-radius: 5px;
+    box-shadow: 0px 0px 20px#CB6F18;
+    cursor: pointer;
+   
+ 
+}
+.logo{
+    width: 8%;
+    margin-bottom: 10px;
+    cursor: pointer;
+    
+    
+}
+
+
+.ui{
+    display: flex;
+    gap: 20px;
+    list-style: none;
+    color: #F39216;
+ position: absolute;
+ left: 1000px;
+}
+
+.i{
+    font-size: 25px;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+.i:hover{
+color: black;
+background-color: white;
+    box-shadow: 0px 0px 20px#CB6F18;
+    cursor: pointer;
+   
+ 
+}
+.text{
+    width: 40%;
+  position: absolute;
+  top: 100px;
+  left: 50px;
+}
+.leaf1{
+    width: 15%;
+    rotate: 60deg;
+
+}
+.ycg{
+    color: white;
+    font-size: 50px;
+}
+.lor{
+    color: white;
+    font-size: 25px;
+    text-align: justify;
+    position: absolute;
+    top: 300px;
+}
+.bookb{
+    background-color: #F39216;
+    height: 15%;
+    position: absolute;
+    font-size: 20px;
+    border-top-left-radius: 20px;
+    border-top-left-radius: 20px;
+    top: 430px;
+    color: white;
+    border: 2px solid white;
+    width: 30%;
+}
+.bookb:hover{
+    background-color: rgba(0, 0, 0, 0.199);
+    cursor: pointer;
+    box-shadow: 15px 15px 50px #F39216;
+}
+.leaf2{
+    position: absolute;
+    top: 150px;
+    left: 500px;
+    width: 15%;
+}
+.honey{
+    position: absolute;
+    left: 900px;
+    top: 150px;
+}
+.mh{
+    width:80%;
+}
+.bee2{
+    position: absolute;
+    left: 1200px;
+    width: 5%;
+    overflow-y: hidden;
+}
